@@ -3,24 +3,22 @@ Une application IA qui aide à détecter grâce à des images de mammographies d
 ## But principal :
 Montrer comment une application d’intelligence artificielle peut être utilisée pour analyser des images médicales (mammographies) afin d’aider à la détection précoce du cancer du sein.
 ## Impact attendu :
-•	Réduction du délai de diagnostic.
-•	Amélioration du taux de détection dans les régions sous-équipées, comme certaines parties de l’Afrique subsaharienne.
-## 1. Description du projet
+1.	Réduction du délai de diagnostic.
+2.	Amélioration du taux de détection dans les régions sous-équipées, comme certaines parties de l’Afrique subsaharienne.
+## I. Description du projet
 ### A. Contexte
-•	Problème : Le cancer du sein est souvent détecté tardivement dans de nombreuses régions, ce qui augmente la mortalité.
-•	Solution proposée : Utiliser un modèle d’IA pour analyser des mammographies, détecter des anomalies, et fournir une interprétation rapide aux professionnels de santé.
+1.	Problème : Le cancer du sein est souvent détecté tardivement dans de nombreuses régions, ce qui augmente la mortalité.
+2.	Solution proposée : Utiliser un modèle d’IA pour analyser des mammographies, détecter des anomalies, et fournir une interprétation rapide aux professionnels de santé.
 ### B. Fonctionnalités de la solution
 1.	Upload d’images médicales : Les utilisateurs (médecins ou techniciens) téléchargent une mammographie dans l’application.
 2.	Analyse par IA : Un modèle de Deep Learning (pré-entraîné) détecte les anomalies suspectes.
 3.	Résultats et recommandations : L’application fournit une évaluation du risque et marque les zones d’intérêt sur l’image.
 ### C. Technologies utilisées
-•	Frameworks d’IA : TensorFlow, PyTorch.
-•	Modèle pré-entraîné : DenseNet, ResNet ou des modèles spécialisés pour la détection médicale (ex. : CheXNet).
-•	Langage de programmation : Python.
-•	Interface utilisateur : Flask/Django pour l’application web ou Streamlit pour un prototype rapide.
+1.	Frameworks d’IA : TensorFlow, PyTorch.
+2.	Langage de programmation : Python.
 ________________________________________
-## 2. Étapes du développement
+## II. Étapes du développement
 ### A. Collecte des données
-•	Utiliser des datasets publics d’images de mammographies annotées, comme :
-o	CBIS-DDSM (Curated Breast Imaging Subset of DDSM).
-o	INbreast (base d’images mammographiques annotées).
+1.	Utilisation des datasets publics d’images de mammographies annotées :
+a.	CBIS-DDSM (Curated Breast Imaging Subset of DDSM).
+b.	INbreast (base d’images mammographiques annotées).
