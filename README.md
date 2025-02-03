@@ -20,5 +20,6 @@ ________________________________________
 ## II. Étapes du développement
 ### A. Collecte des données
 1.	Utilisation des datasets publics d’images de mammographies annotées :
-a.	CBIS-DDSM (Curated Breast Imaging Subset of DDSM).
-b.	INbreast (base d’images mammographiques annotées).
+*	CBIS-DDSM (Curated Breast Imaging Subset of DDSM).
+*	INbreast (base d’images mammographiques annotées).
+* Le Breast Cancer Wisconsin Dataset
